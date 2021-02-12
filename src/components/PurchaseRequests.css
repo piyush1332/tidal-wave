@@ -1,0 +1,246 @@
+.section_heading {
+    padding: 20px;
+}
+
+.block_menu {
+    display: flex;
+    border-bottom: 1px solid #bba0a0;
+}
+
+.block_menu a {
+    text-decoration: none;
+}
+
+.block_menu_item {
+    width: 18%;
+    padding: 17px;
+    background: #2b2b2b;
+    color: white;
+    text-align: center;
+    margin-left: 2.3%;
+    position: relative;
+}
+
+.menu_item_number {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: brown;
+    line-height: 50px;
+}
+
+.menu_item_label {
+    margin-top: 9px;
+    display: block;
+    width: 100%;
+}
+
+.wrap_center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block_btn_holder {
+    padding: 17px;
+}
+
+.block_btn_holder button:hover {
+    background-color: #4e1313a1;
+    cursor: pointer;
+}
+
+.block_btn_holder button {
+    width: 24%;
+    padding: 11px;
+    height: 42px;
+    border: 1px solid;
+    border-radius: 9px;
+    font-size: 16px;
+    background: #2b2b2b;
+    color: white;
+    margin-left: 7%;
+}
+
+.order_information_section {
+    padding: 7px 2.5%;
+    overflow: auto;
+}
+
+.order_label_section {
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+.width_30 {
+    width: 30%;
+}
+
+.width_35 {
+    width: 35%;
+}
+
+.order_label {
+    float: left;
+    text-align: center;
+}
+
+.batch_btn {
+    width: 30% !important;
+}
+
+.order_option {
+    float: left;
+    width: 35%;
+    background: #2b2b2b;
+    color: white;
+    height: 50px;
+    display: flex;
+    line-height: 48px;
+}
+
+.order_option:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.order_batch_image {
+    height: 35px;
+    width: 20%;
+    background: black;
+    float: left;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.order_batch_name {
+    float: left;
+    width: 100%;
+}
+
+.batch_first_name {
+    font-size: 16px;
+    height: 24px;
+    float: left;
+    line-height: 36px;
+    width: 100%;
+}
+
+.batch_time {
+    font-size: 12px;
+    height: 24px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.order_option {
+    position: relative;
+}
+
+.order_option_radio {
+    padding: 17px;
+    line-height: 1px;
+}
+
+.order_option_icon {
+    height: 22px;
+    margin-top: 10px;
+    padding-top: 6px;
+    font-size: 27px;
+    line-height: 23px;
+    border-right: 4px solid;
+    padding-right: 15px;
+}
+
+.order_option_name {
+    width: 73%;
+}
+
+.opder_dropdown {
+    width: 26.4%;
+    height: 100px;
+    position: fixed;
+    background: #2f2b2b;
+    top: 346px;
+}
+
+.opder_dropdown span {
+    width: 94%;
+    height: 12px;
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    margin: 3px 4px;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+.selected {
+    color: white;
+}
+
+.product_image {
+    height: 34px;
+}
+
+.active {
+    background-color: #2b2b2bb5;
+}
+
+.active_tab {
+    width: 0px;
+    height: 0px;
+    border-left: 18px solid transparent;
+    border-right: 19px solid transparent;
+    border-top: 38px solid #555;
+    position: absolute;
+    bottom: -38px;
+    left: 41%;
+    display: none;
+}
+
+.active_arrow {
+    display: block !important;
+}
+
+.unactive_arrow {
+    display: none !important;
+}
+
+.unactive {
+    background-color: #2b2b2b;
+}
+
+.file_icon_holder {
+    height: 32px;
+    width: 20%;
+    margin-top: 9px;
+    border-left: 4px solid white;
+}
+
+.file_icon {
+    height: 32px;
+    width: 65%;
+    background: grey;
+    margin-left: 9px;
+}
+
+.file_info_holder {
+    width: 60%;
+    font-size: 1.3vw;
+}
+
+.file_download_icon {
+    height: 33px;
+    width: 20%;
+    background: grey;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+.inner_block_heading {
+    padding: 3%;
+    font-size: 24px;
+}
